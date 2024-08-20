@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.background{
+    position:relative ;
+    padding:1px;
+    width: 99.8%;
+    height: 99.6%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.143),rgba(0, 0, 0, 0.131)),url(../image\ 1.jpg);
+}
+.section1{
+    margin-top: 50px;
+    margin-left:300px; 
+    display: flex;
+    gap: 10px;
+}
+.section1 > .clr{ 
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgba(95, 158, 160, 0.663);
+    box-shadow: 10px 10px 10px rgba(95, 158, 160, 0.192);
+    cursor: pointer;   
+}
+.section1 > .sumbit{
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 10px 10px 10px rgba(95, 158, 160, 0.192);
+    background-color: rgba(95, 158, 160, 0.663);
+    cursor: pointer;
+}
+.section1 > .update{
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 10px 10px 10px rgba(95, 158, 160, 0.192);
+    background-color: rgba(95, 158, 160, 0.663);
+    cursor: pointer;
+    display: none;
+}
+.section1 > input{
+    width: 600px;
+    height: 50px;
+    border-radius: 20px;
+    outline: none;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgba(95, 158, 160, 0.257);   
+}
+.section1 > input:focus{
+    font-size: 20px;
+    text-align: center;   
+}
+.section1 > input::placeholder{
+    font-size: 20px;
+    font-weight: bold;   
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    color: white;
+    margin: 40px 300px;
+    font-size: 20px;
+    font-style: normal;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd2e;
+  }
+button{
+    background-color: rgba(95, 158, 160, 0.663);;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    box-shadow: 10px 10px 10px rgba(95, 158, 160, 0.303);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    text-align: center;
+    gap: 10px;
+}
