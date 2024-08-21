@@ -16,7 +16,7 @@ submitButton.addEventListener('click', () => {
         value: taskValue,
         date: fulldate
     };
-    taskData.push(task);
+    taskData.push(task);0
     localStorage.setItem("task", JSON.stringify(taskData));
     inp.value = "";
     handleDisplay();
